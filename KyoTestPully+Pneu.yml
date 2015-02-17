@@ -156,7 +156,7 @@ Children:
           default: '0'
           name: Input Channel (Digital)
           validators: &id005 [DigitalChannel]
-          value: '1'
+          value: '0'
       Base: Limit Switch
       Name: Limit Switch top
     - Children: []
@@ -166,7 +166,7 @@ Children:
           default: '0'
           name: Input Channel (Digital)
           validators: *id005
-          value: '0'
+          value: '1'
       Base: Limit Switch
       Name: Limit Switch bottom
     Properties:
